@@ -41,12 +41,6 @@ python -m http.server 8000
 http://localhost:8000
 ```
 
-
-## 联系
-
-* **GitHub:** [song-jinghao](https://github.com/song-jinghao)
-* **Homepage:** [song-jinghao.github.io](https://song-jinghao.github.io/)
-
 ---
 
 > Keep learning. Keep building.
