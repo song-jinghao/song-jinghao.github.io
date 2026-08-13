@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO / 分享信息：后续按自己的真实资料修改 ===== -->
+  <title>Song Jinghao · Personal Homepage</title>
+  <meta
+    name="description"
+    content="Song Jinghao 的个人主页，记录 AI Infra、Triton 算子优化、LLM 应用、后端开发、项目与竞赛经历。"
+  />
+  <meta name="theme-color" content="#fafafa" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://song-jinghao.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:title" content="Song Jinghao · Personal Homepage" />
+  <meta
+    property="og:description"
+    content="AI Infra / Triton / LLM / Backend · Projects, experience and notes."
+  />
+  <meta property="og:url" content="https://song-jinghao.github.io/" />
+  <meta
+    property="og:image"
+    content="https://song-jinghao.github.io/assets/images/avatar.svg"
+  />
+
+  <link rel="icon" href="assets/images/avatar.svg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- 图标库：如果以后想完全离线，也可以把这项删掉并改成文字图标 -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+
+<body>
+  <!-- ===== 顶部导航 ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-title" href="#top">Song Jinghao · Homepage</a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        type="button"
+        aria-label="展开或收起导航"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="主导航">
+        <ul class="nav-links">
+          <li><a href="#about">个人简介</a></li>
+          <li><a href="#education">教育经历</a></li>
+          <li><a href="#projects">项目经历</a></li>
+          <li><a href="#skills">技能</a></li>
+          <li><a href="#awards">奖项</a></li>
+          <li><a href="#news">最新动态</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="container layout">
+    <!-- ===== 左侧个人信息 ===== -->
+    <aside class="sidebar">
+      <div class="avatar-wrap">
+        <!--
+          替换头像：
+          1. 把你的头像放进 assets/images/
+          2. 建议命名为 avatar.jpg 或 avatar.png
+          3. 把下面 src 改成 assets/images/avatar.jpg
+        -->
+        <img
+          src="assets/images/avatar.svg"
+          alt="Song Jinghao avatar"
+          width="180"
+          height="220"
+        />
+      </div>
+
+      <h1 class="sidebar-name">Song Jinghao</h1>
+      <p class="sidebar-role">
+        AI Infra / LLM Engineering<br />
+        Triton · Backend · Systems
+      </p>
+
+      <ul class="contact-list">
+        <li>
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          <span>中国 · 陕西 <em>（请修改）</em></span>
+        </li>
+
+        <li>
+          <i class="fa-solid fa-building-columns" aria-hidden="true"></i>
+          <span>西北大学 · 本科在读 <em>（请核对）</em></span>
+        </li>
+
+        <li>
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          <!-- TODO: 换成真实邮箱 -->
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+        </li>
+
+        <li>
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          <a
+            href="https://github.com/song-jinghao"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/song-jinghao
+          </a>
+        </li>
+
+        <!-- TODO: 如果不需要 Codeforces，直接删除整个 <li> 即可 -->
+        <li>
+          <i class="fa-solid fa-code" aria-hidden="true"></i>
+          <a href="#" title="请替换为你的 Codeforces 链接">Codeforces（待填写）</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-actions">
+        <a
+          class="primary-button"
+          href="https://github.com/song-jinghao"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+          View GitHub
+        </a>
+      </div>
+    </aside>
+
+    <!-- ===== 右侧正文 ===== -->
+    <article class="content">
+      <section class="hero" id="about">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h2 class="page-title">Song Jinghao</h2>
+        <p class="hero-subtitle">
+          AI Infra / Triton Kernel Optimization / LLM / Backend
+        </p>
+
+        <p class="lead">
+          <!-- TODO: 这里替换成你的正式自我介绍 -->
+          我目前关注 AI Infra、Triton 算子优化、大模型应用与后端工程。
+          喜欢从性能分析、工程实现和实际业务场景出发解决问题，
+          也在持续参与算法竞赛、系统方向项目与 AI 应用开发实践。
+        </p>
+
+        <div class="quick-tags" aria-label="研究与技术方向">
+          <span>Triton</span>
+          <span>PyTorch</span>
+          <span>AI Infra</span>
+          <span>LLM</span>
+          <span>Python</span>
+          <span>C++</span>
+          <span>Backend</span>
+        </div>
+      </section>
+
+      <section class="section" id="profile">
+        <h3 class="section-title">概况</h3>
+        <ul class="intro-list">
+          <li>
+            <strong>方向：</strong>
+            AI Infra、GPU / NPU 算子优化、大模型应用、后端开发。
+          </li>
+          <li>
+            <strong>兴趣：</strong>
+            编译优化、性能工程、LLM 系统、AI Agent、计算机视觉。
+          </li>
+          <li>
+            <strong>当前：</strong>
+            持续学习 Triton、PyTorch、系统优化与算法竞赛。
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="education">
+        <h3 class="section-title">教育经历</h3>
+
+        <div class="timeline-item">
+          <div class="timeline-head">
+            <strong>西北大学</strong>
+            <span>2024.09 – 至今（请核对）</span>
+          </div>
+          <p>本科在读 · 专业请在这里填写</p>
+          <p class="muted">
+            课程 / 研究兴趣：数据结构与算法、计算机系统、人工智能、后端开发等。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <h3 class="section-title">项目经历</h3>
+
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-top">
+              <h4>Triton 自动算子优化 / Compiler Competition</h4>
+              <span class="project-date">2026</span>
+            </div>
+            <p>
+              围绕 Triton Kernel 的自动优化与性能调优展开实践，
+              从访存、并行度、Block 配置、流水线与硬件资源利用等角度进行优化。
+            </p>
+            <div class="project-tags">
+              <span>Triton</span>
+              <span>PyTorch</span>
+              <span>Performance</span>
+              <span>Compiler</span>
+            </div>
+            <a
+              class="text-link"
+              href="https://github.com/song-jinghao"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              查看 GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <h4>智能门禁 / 无感知考勤系统</h4>
+              <span class="project-date">2026</span>
+            </div>
+            <p>
+              面向门口摄像头场景，探索人脸识别、人体跟踪、ReID 与业务状态管理的组合方案，
+              解决进门可见人脸、出门仅能看到人体时的身份关联问题。
+            </p>
+            <div class="project-tags">
+              <span>Computer Vision</span>
+              <span>Tracking</span>
+              <span>ReID</span>
+              <span>Backend</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <h4>RAG / AI Agent 应用</h4>
+              <span class="project-date">2025 – 2026</span>
+            </div>
+            <p>
+              基于知识库检索与大模型构建问答类应用，
+              探索 RAG、Prompt、Agent Workflow 与后端系统的工程化集成。
+            </p>
+            <div class="project-tags">
+              <span>RAG</span>
+              <span>Agent</span>
+              <span>LLM</span>
+              <span>Python</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <h3 class="section-title">技能清单</h3>
+
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h4>编程语言</h4>
+            <p>Python · C++ · Java（请按实际情况修改）</p>
+          </div>
+
+          <div class="skill-card">
+            <h4>AI / Infra</h4>
+            <p>PyTorch · Triton · LLM · RAG · AI Agent</p>
+          </div>
+
+          <div class="skill-card">
+            <h4>Backend</h4>
+            <p>Spring Boot · REST API · MySQL · Redis（请修改）</p>
+          </div>
+
+          <div class="skill-card">
+            <h4>Engineering</h4>
+            <p>Git · GitHub · Linux · Docker · Profiling</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="awards">
+        <h3 class="section-title">竞赛 / 奖项</h3>
+        <ul class="intro-list">
+          <!-- TODO: 下面都是占位写法，请替换成真实奖项 -->
+          <li>
+            <strong>2026 编译系统相关竞赛 / 挑战赛</strong>
+            — Triton 自动算子优化方向（具体奖项待填写）。
+          </li>
+          <li>
+            <strong>算法竞赛</strong>
+            — Codeforces / ACM 学习与参赛经历（Rating 与成绩待填写）。
+          </li>
+          <li>
+            <strong>其他竞赛</strong>
+            — 在这里添加软件创新、计算机设计、大创等经历。
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="news">
+        <h3 class="section-title">最新动态</h3>
+
+        <ul class="news-list">
+          <li>
+            <span class="news-date">2026.08</span>
+            <span class="tag-inline">System</span>
+            持续进行 Triton Kernel 性能优化与编译系统方向实践。
+          </li>
+
+          <li>
+            <span class="news-date">2026.08</span>
+            <span class="tag-inline">Algorithm</span>
+            持续参加 Codeforces Div.3 并进行算法训练。
+          </li>
+
+          <li>
+            <span class="news-date">Recently</span>
+            <span class="tag-inline">GitHub</span>
+            更多代码与项目将持续整理到
+            <a
+              href="https://github.com/song-jinghao"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            。
+          </li>
+        </ul>
+      </section>
+
+      <section class="section edit-hint">
+        <h3 class="section-title">📝 后续你主要改这些地方</h3>
+        <p>
+          头像、姓名、邮箱、专业、自我介绍、项目经历、比赛奖项、技能、Codeforces
+          链接。代码中所有带 <code>TODO</code> 或“请修改 / 待填写”的位置都可以直接搜索替换。
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Song Jinghao ·
+    <a
+      href="https://github.com/song-jinghao"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

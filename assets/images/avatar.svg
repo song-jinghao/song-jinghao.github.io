@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="880" viewBox="0 0 720 880">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6f6f8"/>
+      <stop offset="100%" stop-color="#ececf0"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="880" fill="url(#bg)"/>
+  <circle cx="360" cy="320" r="155" fill="#d5d5dc"/>
+  <path d="M115 880c18-232 111-355 245-355S587 648 605 880z" fill="#c6c6ce"/>
+  <circle cx="565" cy="150" r="62" fill="#bb2440" opacity="0.9"/>
+  <text x="360" y="770" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="70" font-weight="700" fill="#55555c">
+    SJH
+  </text>
+  <text x="360" y="828" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="26" fill="#777780">
+    REPLACE WITH YOUR PHOTO
+  </text>
+</svg>
