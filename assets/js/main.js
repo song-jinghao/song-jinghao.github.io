@@ -1,5 +1,6 @@
 // 自动更新页脚年份
-document.getElementById("year").textContent = new Date().getFullYear();
+const year = document.getElementById("year");
+if (year) year.textContent = new Date().getFullYear();
 
 // 手机端导航
 const toggle = document.getElementById("nav-toggle");
